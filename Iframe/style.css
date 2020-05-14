@@ -26,7 +26,7 @@ a:hover{
 }
 
 body{
-    background: rgb(80, 70, 52) url(./images/fundo.jpg) no-repeat fixed center;
+    background: rgb(80, 70, 52) url(./images/fundo.png) no-repeat fixed center;
     text-align: center;
     font-family: verdana, Arial, sans-serif;
     color: rgba(105, 95, 76, 0.60);
@@ -45,7 +45,7 @@ body{
 }
 
 #header{
-    background: #D9D1BC;
+    background: #cbd3da;
     height: 266px;
     background-size: contain;
     padding-left: 10px;
@@ -97,7 +97,7 @@ body{
     margin: 0;
 }
 #cart .orange{
-    color: #ffb400;
+    color: #000000;
     font-size: 0.5rem;
 }
 #cart a{
@@ -105,8 +105,8 @@ body{
     font-size: 0.6rem;
 }
 #cart a:hover{
-    color: #FFB400;
-    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+    /*font-size: 0.8rem;*/
 }
 #nav{
     background: rgba(16, 65, 145, 0.7);
@@ -164,7 +164,7 @@ body{
 #seasonal, #collection{
     float: right;
     width: 474px;
-    background: #D4CAB6;
+    background: #cbd3da;
     margin-bottom: 2px;
 }
 #seasonal .inner{
@@ -189,7 +189,7 @@ h3{
 }
 h2{
     font: 18px "arial narrow",arial,sans-serif;
-    color: #695f4c;
+    color: #0400ff;
     padding-bottom: 10px;
 }
 #categories h2{
@@ -198,7 +198,7 @@ h2{
     background: rgba(16, 65, 145, 0.7);
 }
 #categories li{
-    background: #D4CAB6 left url(./images/bullet.gif) no-repeat;
+    background: #cbd3da left url(./images/bullet.gif) no-repeat;
     border-top: 1px solid #F4EFDF;
     list-style: none;
     font-size: 0.8rem;
@@ -207,7 +207,7 @@ h2{
 }
 #categories li:hover{
     background: rgba(16, 65, 145, 0.42) left url(./images/bullet.gif) no-repeat;
-    border-top: 1px solid #F4EFDF;
+    border-top: 1px solid #cbd3da;
     list-style: none;
     /*font-size: 1rem;*/
     padding: 10px 0 8px 35px;
@@ -222,8 +222,8 @@ h2{
     /*font-weight: bold;*/
 }
 #collection{
-    background: #D4CAB6 bottom right url(./images/image_comics.png) no-repeat;
-    background-size: 20% 100%;
+    background: #cbd3da bottom right url(./images/ino.gif) no-repeat;
+    background-size: 50% 100%;
 }
 #collection .inner{
     padding-right: 98px;
@@ -239,47 +239,51 @@ h2{
     margin: 6px;
 }
 #minigal img{
-    width: 57px;
-    /*height: 53px;*/
+    width: 62px;
+    height: 87.5px;
 }
 #collection ul{
     margin-left: 1.5rem;
 }
 #collection li{
     margin: 0.2rem 0;
-    color: #463F32;
-    font-size: 0.8rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    list-style: none;
     font-weight: bold;
     font-family: "arial narrow",arial,sans-serif;
 }
 #collection p{
     width: 103px;
-    margin-left: 1.1rem;
-    font-size: 0.7rem;
+    margin-left: 1.5rem;
+    font-size: 0.8rem;
 }
 #seas-one, #seas-two, #seas-three{
     height: 146px;
 }
 #seas-one{
     float: left;
-    width: 195px;
+    width: 110px;
     margin-right: 3px;
     background: #ccc;
-    background: url(./images/marvel5.gif) no-repeat;
+    background: url(./images/jogando.gif) no-repeat;
+    background-size: cover;
 }
 #seas-two{
     float: left;
     width: 249px;
     margin-right: 3px;
     background: #ccc;
-    background: url(./images/marvel5.gif) no-repeat; 
+    background: url(./images/top.png) no-repeat;
+    background-size: cover;
 }
 #seas-three{
     float: left;
     width: 222px;
     background: #ccc;
-    background: url(./images/marvel5.gif) no-repeat;
+    background: url(./images/dancinha_uchiha.gif) no-repeat;
     background-size: cover;
+
 }
 #seas p{
     text-align: right;
@@ -287,13 +291,16 @@ h2{
     margin: 80px 15px 0 0;
     font-size: 1.5rem;
     font-weight: bold;
+    opacity: 0;
 }
 #seas p.date{
     margin-top: 0;
     font-size: 1rem;
+    color: white;
+    opacity: 0;
 }
 #copyright{
     text-align: center;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     padding: 3px;
 }
