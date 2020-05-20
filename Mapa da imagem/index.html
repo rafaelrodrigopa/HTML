@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Mapa da Imagem</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Mapa da imagem</h1>
+        </header>
+        <main>
+
+            <div id="presentation">
+                <h2>Selecione os itens abaixo para obter um descrição detalhada.</h2>
+
+                <ul>
+                    <li>1º Quadro (Ao lado da escrivaninha)</li>
+                    <li>2º Quadro (Abaixo do primeiro quadro)</li>
+                    <li>Computador (Parte inferior da escrivaninha)</li>
+                    <li>Monitor</li>
+                    <li>Impressora</li>
+                </ul>
+            </div>
+
+            <img src="./img/img_map.jpg" alt="Escritorio" usemap="#workmap">
+
+            <map name="workmap">
+                <area shape="rect" coords="178,194,126,140" onclick="explanationObjectsQuadroUm()" alt="Quadro1">
+                <area shape="rect" coords="177,250,126,197" onclick="explanationObjectsQuadroDois()" alt="Quadro2">
+                <area shape="rect" coords="317,292,354,378" onclick="explanationObjectsComputador()" alt="Computador">
+                <area shape="rect" coords="214,168,285,218" onclick="explanationObjectsMonitor()" alt="Monitor">
+                <area shape="rect" coords="296,198,367,228" onclick="explanationObjectsImpressora()" alt="Impressora">
+            </map>
+            <div id="explanation">
+                <h2 class="title"></h2>
+                <p class="body"></p>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Rafael Rodrigo 2020</p>
+        </footer>
+    </div>
+</body>
+</html>
