@@ -1,9 +1,4 @@
-**Projetos iniciais (Desenvolvimento para internet)**
-
-Designs com:
-
-- HTML
-- CSS
+# **Projetos iniciais (Desenvolvimento para internet)**
 
 Projetos:
 
