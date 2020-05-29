@@ -1,0 +1,196 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background:linear-gradient(#FEFEFE, #CCCCCC) ;
+}
+
+/* CABEÇALHO */
+header {
+    background: #cccccc;
+    padding: 20px 0;
+    
+}
+
+#cabeçalho {
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 1em 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #243686 ;
+    transition: 1s;
+}
+
+nav a:hover {
+    color: #08C79C;
+}
+
+/* APRESENTAÇÃO */
+#apresentacao {
+    width: 940px;
+    margin: 120px auto;
+    padding: 0px;
+}
+
+.txtApresentacao {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+    margin: 0 5% 0 0;
+}
+
+.imgApresentacao {
+    width: 40%;
+}
+
+h2 {
+    color: #243686;
+    font-weight: bolder;
+    font-size: 3em;
+    margin: 0 0 0.5em 0;
+    text-align: center;
+}
+
+#apresentacao p {
+    color: #08C79C;
+    font-size: 1.7em;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+#apresentacao strong {
+    font-weight: bolder;
+    color: #243686;
+}
+
+/* BENEFICIOS */
+#beneficios {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.listaBeneficios li {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 20px 1%;
+    
+}
+
+.listaBeneficios li:hover h3 {
+    font-size: 2.3em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+    color: #243686;
+    line-height: 2;
+    transition: 1s;
+}
+
+#beneficios p {
+    color: #08C79C;
+    line-height: 1.3;
+}
+
+/* CONTATO */
+#contato {
+    width: 940px;
+    margin: 50px auto 0 auto;
+}
+
+#contato p {
+    text-align: center;
+    font-style: italic;
+    color: #08C79C;
+    line-height: 3em;
+}
+
+
+
+form label, form legend {
+    display: block;
+    font-size: 1em;
+    color: #243686;
+    font-weight: bolder;
+    margin: 0 0 10px;
+}
+
+.inputPadrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.enviar {
+    margin: 20px 0 0 0;
+    width: 100%;
+    padding: 15px 0;
+    background: #08C79C;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer
+}
+
+.enviar:hover {
+    background: #243686;
+    transform: scale(1.1);
+}
+
+#mapa {
+    width: 940px;
+    margin: 50px auto 0 auto;
+}
+
+#mapa p {
+    text-align: center;
+    font-style: italic;
+    color: #08C79C;
+    margin-bottom: 20px;
+}
+
+
+/* RODAPÉ */
+footer {
+    background: #cccccc;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+.logo {
+    height: 100px;
+}
+
+.copyright {
+    color:  #243686;
+    font-size: 1em;
+    margin-top: 20px;
+}
