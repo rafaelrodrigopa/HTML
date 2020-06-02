@@ -8,6 +8,7 @@ Projetos:
 4. **[Modelo de site de tecnologia.](https://github.com/rafaelrodrigopa/HTML/tree/master/Modelo%20de%20site%20de%20tecnologia)**
 5. **[Menu personalizado utilizando Media Queries](https://github.com/rafaelrodrigopa/HTML/tree/master/Menu%20personalizado)**
 6. **[Site de empresa fictícia (Five Headz): Grupo de Projeto e Empreendedorismo Faculdade](https://github.com/rafaelrodrigopa/HTML/tree/master/Projeto-FiveHeadz)**
+7. **[Validação de formulario - Desenvolvimento Front-End](https://github.com/rafaelrodrigopa/HTML/tree/master/ValidacaoFormulario)**
 
  ![Runner-02-june](https://user-images.githubusercontent.com/27809524/82710926-70b32600-9c5a-11ea-8946-bc322b06f267.gif) **Rumo ao sucesso.**
 
