@@ -6,4 +6,4 @@
 
 ## Contribuições:
 
-Professor: [Giovanni](https://github.com/giovannirp)
+:neckbeard: Professor: [Giovanni](https://github.com/giovannirp)
