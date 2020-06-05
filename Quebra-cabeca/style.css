@@ -1,0 +1,52 @@
+#jogo{
+    width: 905px;
+    background-color: rgb(126, 42, 42);
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+#quadro{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+#quadro-pecas{
+    background-color: bisque;
+    padding: 10px;
+    display: inline-block;
+}
+.dropzone{
+    width: 94px;
+    height: 94px;
+    border: 1px solid black;
+    padding: 1px;
+    float: left;
+}
+.peca{
+    background-color: blue;
+    width: 94px;
+    height: 94px;
+    display: block;
+}
+.hightlight{
+    background-color: #fd951f08;
+}
+.peca, .dropzone{
+    transition: 400ms;
+}
+.is-dragging{
+    cursor: move;
+    opacity: 0.3;
+}
+.over{
+    background-color: #4cd13711;
+}
