@@ -1,4 +1,4 @@
-﻿# **Projetos iniciais (Desenvolvimento Web)** ![GitHub top language](https://img.shields.io/github/languages/top/rafaelrodrigopa/HTML)
+﻿# **Projetos iniciais (Desenvolvimento Web)** ![GitHub top language]
 
 Projetos:
 
