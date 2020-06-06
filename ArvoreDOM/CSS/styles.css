@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+input, button{
+    padding: 10px;
+    outline-style: none;
+}
+#page{
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+header{
+    padding: 10px;
+}
+header h1{
+    text-align: center;    
+    font-size: 24px;
+    color: rgba(91, 103, 170, 0.5);
+}
+header h2{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    color: rgb(131, 143, 210);
+}
+main{
+    padding: 10px;
+    text-align: center;
+}
+main h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+main input{
+    margin-top: 50px;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
