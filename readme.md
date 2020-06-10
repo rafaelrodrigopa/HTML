@@ -1,4 +1,4 @@
-﻿# **Projetos iniciais (Desenvolvimento Web)** ![GitHub top language]
+﻿# **Projetos iniciais (Desenvolvimento Web)**
 
 Projetos:
 
