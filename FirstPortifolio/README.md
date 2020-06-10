@@ -1,4 +1,4 @@
-<h1><p align="center" size="36px">1º Modelo Portifolio - Layout HTMLUp</p></h1><hr>
+<h1><p align="center" size="36px">1º Modelo Portifolio - Layout HTMLUp</p></h1>
 
 ![image](https://user-images.githubusercontent.com/27809524/84216983-5a51fa80-aaa1-11ea-9561-d4c18b232588.png)
 ![image](https://user-images.githubusercontent.com/27809524/84217011-6c339d80-aaa1-11ea-89b4-dc4d7003403d.png)
